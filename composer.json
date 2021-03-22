@@ -1,0 +1,16 @@
+{
+    "name": "wangqs/ali-api-getway",
+    "description": "阿里云网关api的PHP SDK适配",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangqs"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Wangqs\\AliApiGetway\\": "src"
+        }
+    }
+}
