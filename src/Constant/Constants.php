@@ -39,4 +39,5 @@ class Constants
     const DEFAULT_TIMEOUT = 1000;
 	//参与签名的系统Header前缀,只有指定前缀的Header才会参与到签名中
 	const CA_HEADER_TO_SIGN_PREFIX_SYSTEM = "X-Ca-";
+
 }
