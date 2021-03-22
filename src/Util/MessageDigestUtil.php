@@ -1,6 +1,7 @@
 ﻿<?php
 namespace Wangqs\AliApiGetway\Util;
 
+
 class MessageDigestUtil
 {
 	/**
@@ -12,7 +13,7 @@ class MessageDigestUtil
 	public static function Base64AndMD5($input) 
 	{
 		if ($input == null || strlen($input) == 0) {
-			throw new Exception("input can not be null");
+			throw new \Exception("input can not be null");
 		}
 
 		return base64_encode(md5(unpack('C*', $input)));

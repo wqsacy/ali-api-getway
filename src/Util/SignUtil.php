@@ -20,6 +20,10 @@
 
 namespace Wangqs\AliApiGetway\Util;
 
+use Wangqs\AliApiGetway\Constant\Constants;
+use Wangqs\AliApiGetway\Constant\HttpHeader;
+use Wangqs\AliApiGetway\Constant\SystemHeader;
+
 /**
 *签名处理
 */

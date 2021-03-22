@@ -11,5 +11,9 @@
         "psr-4": {
             "Wangqs\\AliApiGetway\\": "src"
         }
+    },
+    "require": {
+        "ext-mbstring": "*",
+      "ext-curl": "*"
     }
 }
