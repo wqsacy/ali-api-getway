@@ -36,6 +36,6 @@ class SystemHeader {
     const X_CA_KEY = "X-Ca-Key";
     // 测试环境标志
     const X_CA_STAG = "X-Ca-Stag";
-
+	// 兼容部分外部使用
 	const X_CA_VERSION = "x-ca-version";
 }
